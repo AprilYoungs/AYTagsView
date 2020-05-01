@@ -7,12 +7,42 @@
 //
 
 import UIKit
+import AYTagsView
 
 class ViewController: UIViewController {
-
+    @IBOutlet var tagView: AYTagsView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tagView.texts = ["April Young",
+                         "NSAttributedString",
+                         "backgroundColor",
+                         "April Yang",
+                         "Copyright",
+                         "rights reserved",
+                         "ViewController",
+                         "AYTagsView",
+                         "backgroundColor",
+                         "April Yang",
+                         "Copyright",
+                         "rights reserved",
+                         "ViewController",
+                         "ViewController",
+                         "AYTagsView",
+                         "backgroundColor",
+                         "April Yang",
+                         "Copyright",
+                         "rights reserved",
+                         "ViewController",
+                         "ViewController",
+                         "AYTagsView",
+                         "backgroundColor",
+                         "April Yang",
+                         "Copyright",
+                         "rights reserved",
+                         "ViewController",
+                         
+        ]
     }
 
     override func didReceiveMemoryWarning() {

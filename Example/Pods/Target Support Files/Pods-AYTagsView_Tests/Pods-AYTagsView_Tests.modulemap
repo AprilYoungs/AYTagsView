@@ -1,0 +1,6 @@
+framework module Pods_AYTagsView_Tests {
+  umbrella header "Pods-AYTagsView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

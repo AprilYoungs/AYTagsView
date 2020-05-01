@@ -1,0 +1,16 @@
+PODS:
+  - AYTagsView (0.1.0)
+
+DEPENDENCIES:
+  - AYTagsView (from `../`)
+
+EXTERNAL SOURCES:
+  AYTagsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYTagsView: 28729b48a991f575b193ded85c0710b53cb7f130
+
+PODFILE CHECKSUM: c6565a293455178c758b0de21658c3b060714bea
+
+COCOAPODS: 1.9.1

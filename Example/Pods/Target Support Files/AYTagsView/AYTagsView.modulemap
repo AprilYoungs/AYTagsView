@@ -1,0 +1,6 @@
+framework module AYTagsView {
+  umbrella header "AYTagsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

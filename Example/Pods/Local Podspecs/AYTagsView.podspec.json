@@ -1,0 +1,24 @@
+{
+  "name": "AYTagsView",
+  "version": "0.1.0",
+  "summary": "A short description of AYTagsView.",
+  "description": "A tags view to for multiple tags",
+  "homepage": "https://github.com/AprilYoungs/AYTagsView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AprilYoungs": "yangchangjun010@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AprilYoungs/AYTagsView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "AYTagsView/Classes/**/*",
+  "swift_version": "4.2"
+}
