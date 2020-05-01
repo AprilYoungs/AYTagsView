@@ -7,9 +7,8 @@
 
 ## Example
 
+![](screenShot.png)
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -17,7 +16,7 @@ AYTagsView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AYTagsView'
+pod 'AYTagsView', :git => 'https://github.com/AprilYoungs/AYTagsView.git', :tag=> '0.1.0'
 ```
 
 ## Author
