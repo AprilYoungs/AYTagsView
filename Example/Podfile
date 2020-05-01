@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYTagsView_Example' do
+  pod 'AYTagsView', :path => '../'
+
+  target 'AYTagsView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
