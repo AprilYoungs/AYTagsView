@@ -18,7 +18,7 @@ A tags view to for multiple tags
   s.homepage         = 'https://github.com/AprilYoungs/AYTagsView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AprilYoungs' => 'yangchangjun010@hotmail.com' }
-  s.source           = { :git => 'https://github.com/AprilYoungs/AYTagsView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AprilYoungs/AYTagsView.git', :tag => '0.1.0' }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
