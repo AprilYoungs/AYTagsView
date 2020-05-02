@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FAA056EB96B25CBB3A6FF34FAC15164 /* AYTagsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AYTagsView.framework; path = AYTagsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB0DB2FFFAF347A9D18332CF7973E38 /* AYTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AYTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0FAA056EB96B25CBB3A6FF34FAC15164 /* AYTagsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYTagsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB0DB2FFFAF347A9D18332CF7973E38 /* AYTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E414A22C863AEBCE3804717618C18CD /* Pods-AYTagsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTagsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E9C8E1F6F16E4B2CE5FE0BF7190DE60 /* AYTagsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYTagsView-dummy.m"; sourceTree = "<group>"; };
 		2CAD5F3CD75551E82B4649DF0E909481 /* Pods-AYTagsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTagsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,22 +50,22 @@
 		4BC14B1F7EFD85502895EC52F821058B /* Pods-AYTagsView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYTagsView_Tests.modulemap"; sourceTree = "<group>"; };
 		61BDF6918FBA8DC2CF9D11BA03FFE46F /* AYTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYTagsView.debug.xcconfig; sourceTree = "<group>"; };
 		70D66A13E68EF82DEEE4A2D25B063491 /* Pods-AYTagsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTagsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81A303A0153003EFF666CD1F57960B97 /* Pods_AYTagsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYTagsView_Tests.framework; path = "Pods-AYTagsView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A303A0153003EFF666CD1F57960B97 /* Pods_AYTagsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYTagsView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88382B0934F92AD45831AA3ECC157CE2 /* AYTagsView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYTagsView-Info.plist"; sourceTree = "<group>"; };
-		978DE80A674E52F3C691A166373B58FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		978DE80A674E52F3C691A166373B58FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9871224BD9390C8522EB67CDFBE7A33E /* AYTagsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYTagsView.modulemap; sourceTree = "<group>"; };
 		995CE53A15B286AC4646381317E705B7 /* AYTagsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AYTagsView.swift; path = AYTagsView/Classes/AYTagsView.swift; sourceTree = "<group>"; };
 		99B8EBDE0A89C518AC34DCA29C0E183D /* AYTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYTagsView.release.xcconfig; sourceTree = "<group>"; };
 		9A40A8B49CF6CA6F477D7C1759A74007 /* Pods-AYTagsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTagsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A65AD112F6FC2DFAADFDE9731DB7D1D8 /* AYTagsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYTagsView-umbrella.h"; sourceTree = "<group>"; };
-		A69918F54BE3C1D67BD6C2A32F9919A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A69918F54BE3C1D67BD6C2A32F9919A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A88DCD8FEE38BB1872415F8C8FA51D28 /* Pods-AYTagsView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYTagsView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3A458C18959E7AC5609F95B8E3D5FBC /* Pods-AYTagsView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYTagsView_Example-umbrella.h"; sourceTree = "<group>"; };
 		B587C807253B4A7A4AD6FFC0A93145FC /* Pods-AYTagsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYTagsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA37CB6DE6E8582E2D39C17DE34FCE88 /* Pods-AYTagsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYTagsView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEB37AA5C51292A5781E9F75186CC5DA /* Pods-AYTagsView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYTagsView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BFAAF45465FEEAA8AA57B23A30B3211D /* Pods_AYTagsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AYTagsView_Example.framework; path = "Pods-AYTagsView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAAF45465FEEAA8AA57B23A30B3211D /* Pods_AYTagsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYTagsView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30A09DCC9C4A3259BC49CF62FE88C98 /* Pods-AYTagsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTagsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDBD0831BE58C2B59CF1E1F0FE43033B /* Pods-AYTagsView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYTagsView_Example-Info.plist"; sourceTree = "<group>"; };
 		D427B1BC85259E213E4E76E9594BB9F4 /* Pods-AYTagsView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYTagsView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -497,7 +497,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -624,8 +624,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -719,7 +718,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

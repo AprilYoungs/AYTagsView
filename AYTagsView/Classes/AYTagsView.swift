@@ -46,7 +46,7 @@ public class AYTagsView: UIScrollView {
             }
             
             let textRect = CGRect(origin: CGPoint(x: left+padding.left, y: top+padding.top), size: textSize)
-            let textBackgroudRect = textRect.inset(by: UIEdgeInsets(top: -padding.top, left: -padding.left, bottom: -padding.bottom, right: -padding.right))
+            let textBackgroudRect = CGRect(x: textRect.minX-padding.left, y: textRect.minY-padding.top, width: textRect.width+padding.left+padding.right, height: textRect.height+padding.top+padding.bottom)
             let backgroudPath = UIBezierPath(roundedRect: textBackgroudRect, cornerRadius: textCornerRadius)
             textBackgroundColor.setFill()
             backgroudPath.fill()

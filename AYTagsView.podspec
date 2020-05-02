@@ -21,7 +21,7 @@ A tags view to for multiple tags
   s.source           = { :git => 'https://github.com/AprilYoungs/AYTagsView.git' }
 
   s.ios.deployment_target = '9.0'
-  s.swift_version = '5.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'AYTagsView/Classes/**/*'
   
