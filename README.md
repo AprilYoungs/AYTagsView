@@ -16,7 +16,7 @@ AYTagsView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AYTagsView', :git => 'https://github.com/AprilYoungs/AYTagsView.git', :tag=> '0.1.0'
+pod 'AYTagsView', :git => 'https://github.com/AprilYoungs/AYTagsView.git', :tag=> '0.1.1'
 ```
 
 ## Author
