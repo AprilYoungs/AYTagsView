@@ -11,16 +11,17 @@ import UIKit
 public class AYTagsView: UIScrollView {
 
     public var texts:[String]?
-    public var horizonMargin: CGFloat = 12
-    public var verticalMargin: CGFloat = 8
-    public var font: UIFont = UIFont.systemFont(ofSize: 14)
-    public var textColor: UIColor = UIColor.green
-    public var textBackgroundColor: UIColor = UIColor.black
+    @IBInspectable public var horizonMargin: CGFloat = 12
+    @IBInspectable public var verticalMargin: CGFloat = 8
+    
+    @IBInspectable public var textColor: UIColor = UIColor.green
+    @IBInspectable public var textBackgroundColor: UIColor = UIColor.black
     // space between texts
-    public var textGap: CGFloat = 10
-    public var lineSpace: CGFloat = 5
+    @IBInspectable public var textGap: CGFloat = 10
+    @IBInspectable public var lineSpace: CGFloat = 5
+    @IBInspectable public var textCornerRadius: CGFloat = 3
     public var padding: UIEdgeInsets = UIEdgeInsets(top: 3, left: 8, bottom: 3, right: 8)
-    public var textCornerRadius: CGFloat = 3
+    public var font: UIFont = UIFont.systemFont(ofSize: 14)
     public override func draw(_ rect: CGRect) {
         guard let texts = texts else { return }
         
@@ -34,7 +35,7 @@ public class AYTagsView: UIScrollView {
         var finalHeight: CGFloat = 0
         for str in texts {
             
-            let textSize = (str as NSString).boundingRect(with: CGSize(width: rect.width-2*horizonMargin, height: rect.height-2*verticalMargin), options: .usesFontLeading, attributes: attributes, context: nil).size
+            let textSize = (str as NSString).boundingRect(with: CGSize(width: rect.width-2*horizonMargin, height: 10000), options: .usesFontLeading, attributes: attributes, context: nil).size
             let lineHeight = padding.top + textSize.height + padding.bottom + lineSpace
             let textSpace = padding.left + textSize.width + padding.right + textGap
             if left + textSpace > rect.width {
@@ -62,5 +63,35 @@ public class AYTagsView: UIScrollView {
     public override func layoutSubviews() {
         setNeedsDisplay()
     }
-
+    
+    
+    /// calculate number of line for dynamic tableViewcell
+    /// - Parameters:
+    ///   - texts: texts
+    ///   - width: the expected width of tagView
+    ///   - fontSize: fontSize
+    ///   - horizonMargin: horizonMargin
+    ///   - textGap: horizon space between tags
+    ///   - padding: padding
+    /// - Returns: line number
+    public static func numberOfLine(_ texts:[String], width: CGFloat, fontSize: CGFloat = 14, horizonMargin: CGFloat = 12, textGap: CGFloat = 10, padding: UIEdgeInsets = UIEdgeInsets(top: 3, left: 8, bottom: 3, right: 8)) -> Int{
+        
+        let attributes = [ NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize) ]
+        
+        var left: CGFloat = horizonMargin
+        var lineCount = 1
+        for str in texts {
+            
+            let textSize = (str as NSString).boundingRect(with: CGSize(width: width-2*horizonMargin, height: 10000), options: .usesFontLeading, attributes: attributes, context: nil).size
+            let textSpace = padding.left + textSize.width + padding.right + textGap
+            if left + textSpace > width {
+                // next line
+                left = horizonMargin
+                lineCount += 1
+            }
+            left = left + textSpace
+        }
+        
+        return lineCount
+    }
 }

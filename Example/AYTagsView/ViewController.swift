@@ -37,12 +37,10 @@ class ViewController: UIViewController {
                          "ViewController",
                          "AYTagsView",
                          "backgroundColor",
-                         "April Yang",
-                         "Copyright",
-                         "rights reserved",
-                         "ViewController",
-                         
         ]
+        let lines = AYTagsView.numberOfLine(tagView.texts!, width: 319)
+        print(lines)
+        
     }
 
     override func didReceiveMemoryWarning() {
